@@ -1,0 +1,43 @@
+.hero{
+    background-image:linear-gradient(to left,rgb(220, 193, 211),pink);
+    height:auto;
+    width:auto;
+}
+
+.text{
+    text-align: center;
+   
+    font-size:8rem;
+    /* position:absolute; */
+    margin-top: 25%;
+    margin-bottom: 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card{
+    border:none;
+    border-radius: 8px;
+    box-shadow: rgb(120, 117, 117,0.4,);
+}
+.card:hover{
+    height: 400px;
+    width:250px;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    
+    .card{
+        height:500px;
+        width: 400px;
+    }
+    .text{
+        margin-top: 5%;
+    }
+    .card:hover{
+    height: 550px;
+    width:450px;
+    cursor: pointer;
+    margin-top:50px ;
+    margin-bottom: 30px;
+}
+
+}
